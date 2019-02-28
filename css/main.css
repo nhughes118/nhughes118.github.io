@@ -17,9 +17,7 @@ p {
 	color: black;
 }
 
-/*
-MAIN STYLING
-*/
+/* MAIN STYLES */
 
 .bg {
   background-image: url("https://images.pexels.com/photos/1427876/pexels-photo-1427876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -92,7 +90,7 @@ MAIN STYLING
 
 .mainText {
   width: 49%;
-  margin: 15px auto;
+  margin: 0 auto 15px auto;
   text-align: center;
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -138,6 +136,11 @@ footer a:hover {
 
 #howWeMet {
 	color: black;
+}
+
+.sunflower-banner img {
+	width: 100%;
+	border-top: 3px solid black;
 }
 
 @media screen and (max-width: 400px) {
