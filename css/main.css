@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  background-color: white;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+p {
+	color: black;
+}
+
+/*
+MAIN STYLING
+*/
+
+.bg {
+  background-image: url("https://images.pexels.com/photos/1427876/pexels-photo-1427876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#topNav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  list-style-type: none;
+  height: 47px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(241, 196, 15, 0.5);
+}
+
+#topNav a {
+  text-decoration: none;
+  color: black;
+  height: 6.2vh;
+  display: block;
+  text-align: center;
+  font-size: 3.4vh;
+  padding: 11px 10px;
+  text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+#topNav a:hover {
+  border-bottom: 3px solid black;
+}
+
+#topNav li {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.selected {
+  border-bottom: 3px solid black;
+}
+
+.mainFont {
+  width: 49%;
+  margin: 0 auto;
+  padding: 100px 0;
+  font-size: 10vw;
+  text-align: center;
+  color: white;
+  text-shadow:
+    7px -1px 0 #000,
+    3px -1px 0 #000,
+    7px 1px 0 #000,
+    0px 1px 0 #000;
+}
+
+.mainText {
+  width: 49%;
+  margin: 15px auto;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainText p {
+  line-height: 1.6;
+}
+
+.scrollDown {
+  display: block;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(241, 196, 15, 0.5);
+}
+
+footer a {
+  text-decoration: none;
+  padding: 10px 5px;
+  font-size: 2.5vh;
+  color: black;
+}
+
+footer a:hover {
+  color: #ecf0f1;
+  transition: 0.5s;
+}
+
+/* Our Story */
+
+#howWeMet {
+	color: black;
+}
+
+@media screen and (max-width: 400px) {
+  #topNav li{
+    display: none;
+  }
+
+  .mobileMenu {
+    display: list-item;
+    font-size: 2.5vh;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
