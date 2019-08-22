@@ -172,6 +172,22 @@ footer a:hover {
 	
 }
 
+
+/* Info */
+#gmap {
+	margin: 0 auto;
+}
+
+#hotel {
+	color: #2d17af;
+	text-decoration: none;
+}
+
+#hotel:hover {
+	color: #5b80ee;
+	text-decoration: line-through;
+}
+
 @media screen and (max-width: 400px) {
   #topNav li{
     display: none;
