@@ -22,7 +22,7 @@ p {
 
 .bg {
   background-image: url("https://images.pexels.com/photos/1427876/pexels-photo-1427876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 100%;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,8 +103,9 @@ p {
 }
 
 .mainText {
-  width: 49%;
-  margin: 0 auto 15px auto;
+/*   width: 49%; */
+  margin: 0px auto;
+  padding: 10px;
   text-align: center;
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -165,11 +166,10 @@ footer a:hover {
 
 #savnick {
 	position: relative;
-	top: -40px;
+	top: -25px;
 	border: 2px solid black;
-	width: 100%;
+	width: 60%;
 	height: 100%;
-	
 }
 
 
@@ -188,9 +188,14 @@ footer a:hover {
 	text-decoration: line-through;
 }
 
+/* FOR Phones */
 @media screen and (max-width: 400px) {
   #topNav li{
     display: none;
+  }
+  
+  .fa-arrow-down {
+	  display: none;
   }
 
   .mobileMenu {
@@ -199,4 +204,15 @@ footer a:hover {
     margin: 0 auto;
     padding: 10px;
   }
+}
+
+/* FOR Tablets & Computers */
+@media screen and (min-width: 400px) {
+	.bg {
+		height: 100%;
+	}
+	
+	.fa-arrow-down {
+		display: inline-block;
+	}
 }
