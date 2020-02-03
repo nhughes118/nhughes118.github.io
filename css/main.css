@@ -1,17 +1,18 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Dancing Script', cursive;
-  background-color: beige;
-  scroll-behavior: smooth;
+	height: 100%;
+	width: 90%;
+	margin: 0 5%;
+	font-family: 'Dancing Script', cursive;
+	background-color: #f9e46a;
+	scroll-behavior: smooth;
 }
 
 h1 {
-  font-size: 5vw;
+	font-size: 5vw;
 }
 
 p {
@@ -20,132 +21,137 @@ p {
 
 /* MAIN STYLES */
 
-.bg {
-  background-image: url("https://images.pexels.com/photos/1427876/pexels-photo-1427876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+.allcontent {
+/* 	height: 100%; */
+	border: 1px solid black;
+	background-color: white;
+/* 	overflow: hidden; */
+}
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg {
+	background-image: url("/img/sunflower-bg.jpeg");
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #topNav {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  list-style-type: none;
-  height: 47px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow: hidden;
-  text-align: center;
-  background-color: rgba(241, 196, 15, 0.5);
+	z-index: 100;
+	list-style-type: none;
+	height: 47px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgba(241, 196, 15, 0.5);
 }
 
 #topNav a {
-  text-decoration: none;
-  color: black;
-  height: 6.2vh;
-  display: block;
-  text-align: center;
-  font-size: 3.4vh;
-  padding: 11px 10px;
-  text-shadow:
-   -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
+	text-decoration: none;
+	color: black;
+	height: 6.2vh;
+	display: block;
+	text-align: center;
+	font-size: 3.4vh;
+	padding: 11px 10px;
+	text-shadow:
+	-1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
 }
 
 #topNav a:hover {
-  border-bottom: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 #topNav li {
-  display: inline-block;
-  padding-left: 0;
-  padding-right: 0;
+	display: inline-block;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .mobileMenu {
-  display: none;
+	display: none;
 }
 
 .selected {
-  border-bottom: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 .mainFont {
-  width: 49%;
-  margin: 0 auto;
-  padding: 100px 0;
-  font-size: 10vw;
-  text-align: center;
-  color: white;
-  text-shadow:
-    7px -1px 0 #000,
-    3px -1px 0 #000,
-    7px 1px 0 #000,
-    0px 1px 0 #000;
+	width: 49%;
+	margin: 0 auto;
+	padding: 50px 0;
+	font-size: 10vw;
+	text-align: center;
+	color: white;
+	text-shadow:
+	7px -1px 0 #000,
+	3px -1px 0 #000,
+	7px 1px 0 #000,
+	0px 1px 0 #000;
 }
 
 .subFont {
-	width: 49%;
 	margin: 0 auto;
+	padding: 10px 0;
 	font-size: 6vw;
 	text-align: center;
 	color: white;
 	text-shadow:
-	    7px -1px 0 #000,
-	    3px -1px 0 #000,
-	    7px 1px 0 #000,
-	    0px 1px 0 #000;
+	7px -1px 0 #000,
+	3px -1px 0 #000,
+	7px 1px 0 #000,
+	0px 1px 0 #000;
 }
 
 .mainText {
-/*   width: 49%; */
-  margin: 0px auto;
-  padding: 10px;
-  text-align: center;
-  color: white;
-  font-family: 'Raleway', sans-serif;
+	/*   width: 49%; */
+	margin: 0px auto;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 .mainText p {
-  line-height: 1.6;
+	line-height: 1.6;
 }
 
 .scrollDown {
-  display: block;
-  text-align: center;
-  font-size: xx-large;
-  color: white;
-  padding: 10px;
+	display: block;
+	text-align: center;
+	font-size: xx-large;
+	color: white;
+	padding: 10px;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 5vh;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow: hidden;
-  text-align: center;
-  background-color: rgba(241, 196, 15, 0.5);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 5vh;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgba(241, 196, 15, 0.5);
 }
 
 footer a {
-  text-decoration: none;
-  padding: 10px 5px;
-  font-size: 2.5vh;
-  color: black;
+	text-decoration: none;
+	padding: 10px 5px;
+	font-size: 2.5vh;
+	color: black;
 }
 
 footer a:hover {
-  color: #ecf0f1;
-  transition: 0.5s;
+	color: #ecf0f1;
+	transition: 0.5s;
 }
 
 /* Our Story */
@@ -154,7 +160,7 @@ footer a:hover {
 	margin-bottom: 10px;
 }
 
-#howWeMet {
+.howWeMet {
 	color: black;
 }
 
@@ -168,7 +174,7 @@ footer a:hover {
 	position: relative;
 	top: -25px;
 	border: 2px solid black;
-	width: 60%;
+	width: 45vw;
 	height: 100%;
 }
 
@@ -178,41 +184,51 @@ footer a:hover {
 	margin: 0 auto;
 }
 
-#hotel {
+#links {
 	color: #2d17af;
 	text-decoration: none;
 }
 
-#hotel:hover {
+#links:hover {
 	color: #5b80ee;
 	text-decoration: line-through;
 }
 
 /* FOR Phones */
 @media screen and (max-width: 400px) {
-  #topNav li{
-    display: none;
-  }
-  
-  .fa-arrow-down {
-	  display: none;
-  }
+	#topNav li{
+	display: none;
+}
 
-  .mobileMenu {
-    display: list-item;
-    font-size: 2.5vh;
-    margin: 0 auto;
-    padding: 10px;
-  }
+body, html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.allcontent {
+	width: 100%;
+}
+
+.fa-arrow-down {
+	display: none;
+}
+
+.mobileMenu {
+	display: list-item;
+	font-size: 2.5vh;
+	margin: 0 auto;
+	padding: 10px;
+}
 }
 
 /* FOR Tablets & Computers */
 @media screen and (min-width: 400px) {
-	.bg {
-		height: 100%;
-	}
-	
-	.fa-arrow-down {
-		display: inline-block;
-	}
+.bg {
+	height: 100%;
+}
+
+.fa-arrow-down {
+	display: inline-block;
+}
 }
