@@ -88,24 +88,18 @@ p {
 	font-size: 10vw;
 	text-align: center;
 	color: white;
-	text-shadow:
-	7px -1px 0 #000,
-	3px -1px 0 #000,
-	7px 1px 0 #000,
-	0px 1px 0 #000;
+/* 	text-shadow: 2px 0px 3px black; */
 }
 
 .subFont {
 	margin: 0 auto;
 	padding: 10px 0;
 	font-size: 6vw;
+	font-weight: bold;
 	text-align: center;
 	color: white;
-	text-shadow:
-	7px -1px 0 #000,
-	3px -1px 0 #000,
-	7px 1px 0 #000,
-	0px 1px 0 #000;
+	text-shadow: 2px 0px 3px black;
+
 }
 
 .mainText {
@@ -195,31 +189,41 @@ footer a:hover {
 }
 
 /* FOR Phones */
-@media screen and (max-width: 400px) {
-	#topNav li{
-	display: none;
-}
+@media screen and (max-width: 458px) {
+	#topNav{
+		height: auto;
+	}
+	
+	#topNav li {
+		display: none;
+	}
+	
+	#topNav a:hover {
+		border-bottom: 0;
+	}
+	
+	body, html {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.allcontent {
+		width: 100%;
+	}
+	
+	.fa-arrow-down {
+		display: none;
+	}
+	
+	
+	.mobileMenu {
+		display: list-item;
+		font-size: 2.5vh;
+		margin: 0 auto;
+		padding: 10px;
+	}
 
-body, html {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.allcontent {
-	width: 100%;
-}
-
-.fa-arrow-down {
-	display: none;
-}
-
-.mobileMenu {
-	display: list-item;
-	font-size: 2.5vh;
-	margin: 0 auto;
-	padding: 10px;
-}
 }
 
 /* FOR Tablets & Computers */
