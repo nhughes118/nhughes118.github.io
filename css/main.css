@@ -64,7 +64,7 @@ p {
 }
 
 #topNav a:hover {
-	border-bottom: 3px solid black;
+	border-bottom: 1.5px dashed black;
 }
 
 #topNav li {
@@ -217,7 +217,7 @@ footer a:hover {
 	}
 	
 	
-	.mobileMenu {
+/* 	.mobileMenu { */
 		display: list-item;
 		font-size: 2.5vh;
 		margin: 0 auto;
